@@ -1,0 +1,1 @@
+Here's a simple React frontend using TypeScript, Tailwind CSS 3, Redux Toolkit Query (RTK Query), and Chakra UI. This example sets up a basic app with a Redux store, an API slice using RTK Query, and a Chakra UI button.
