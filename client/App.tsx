@@ -1,8 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "./store";
+import { store } from "./src/store";
 import { ChakraProvider, Button, Box, Text } from "@chakra-ui/react";
-import { useGetExampleQuery } from "./apiSlice";
+import { useGetExampleQuery } from "./src/apiSlice";
 
 const App: React.FC = () => {
   const { data, error, isLoading } = useGetExampleQuery();
